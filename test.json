@@ -1,0 +1,226 @@
+{
+    "id": "ebc3d8784741bd107bfd7d18c26d43cd",
+    "ponr": "false",
+    "href": "/api/sn_ind_tmt_orm/order/productOrder/ebc3d8784741bd107bfd7d18c26d43cd",
+    "orderCurrency": "USD",
+    "priority": 4,
+    "orderDate": "2023-08-31T19:00:00.000Z",
+    "channel": [
+      {
+        "id": "58ad5522c3702010df4773ce3640ddb2",
+        "name": "Agent assist"
+      }
+    ],
+    "note": [
+      {
+        "author": "Shrikant Dhomane",
+        "date": "2023-08-31T03:41:18.000Z",
+        "text": "No compatibility rule defined for orderline item specifications."
+      }
+    ],
+    "productOrderItem": [
+      {
+        "id": "c504764247fcb1107bfd7d18c26d432c",
+        "ponr": "false",
+        "quantity": 1,
+        "priority": 4,
+        "action": "add",
+        "itemPrice": [
+          {
+            "priceType": "recurring",
+            "price": {
+              "taxIncludedAmount": {
+                "unit": "USD",
+                "value": 0
+              }
+            }
+          },
+          {
+            "priceType": "nonRecurring",
+            "price": {
+              "taxIncludedAmount": {
+                "unit": "USD",
+                "value": 10
+              }
+            }
+          }
+        ],
+        "product": {
+          "@type": "Product",
+          "productSpecification": {
+            "id": "e7b904104774b1107bfd7d18c26d4344",
+            "name": "Versa_SDWAN_Package",
+            "version": "",
+            "internalVersion": "1",
+            "internalId": "e7b904104774b1107bfd7d18c26d4344",
+            "@type": "ProductSpecificationRef"
+          },
+          "place": {
+            "id": "5671dd2ec3a53010188473ce3640dd81",
+            "@type": "Place"
+          }
+        },
+        "productOffering": {
+          "id": "59533a0247fcb1107bfd7d18c26d4341",
+          "name": "Versa_SDWAN_Offering_v1",
+          "version": "",
+          "internalVersion": "1",
+          "internalId": "59533a0247fcb1107bfd7d18c26d4341"
+        },
+        "productOrderItemRelationship": [
+          {
+            "id": "0504b64247fcb1107bfd7d18c26d435f",
+            "relationshipType": "HasChild"
+          },
+          {
+            "id": "8d04b64247fcb1107bfd7d18c26d4363",
+            "relationshipType": "HasChild"
+          }
+        ],
+        "state": "new",
+        "version": "1",
+        "@type": "ProductOrderItem"
+      },
+      {
+        "id": "0504b64247fcb1107bfd7d18c26d435f",
+        "ponr": "false",
+        "quantity": 1,
+        "priority": 4,
+        "action": "add",
+        "itemPrice": [
+          {
+            "priceType": "recurring",
+            "price": {
+              "taxIncludedAmount": {
+                "unit": "USD",
+                "value": 0
+              }
+            }
+          },
+          {
+            "priceType": "nonRecurring",
+            "price": {
+              "taxIncludedAmount": {
+                "unit": "USD",
+                "value": 0
+              }
+            }
+          }
+        ],
+        "product": {
+          "@type": "Product",
+          "productSpecification": {
+            "id": "71688cec47fcf1107bfd7d18c26d4396",
+            "name": "Versa_Controllers_Headend",
+            "version": "",
+            "internalVersion": "1",
+            "internalId": "71688cec47fcf1107bfd7d18c26d4396",
+            "@type": "ProductSpecificationRef"
+          },
+          "place": {
+            "id": "5671dd2ec3a53010188473ce3640dd81",
+            "@type": "Place"
+          }
+        },
+        "productOffering": {
+          "id": "59533a0247fcb1107bfd7d18c26d4341",
+          "name": "Versa_SDWAN_Offering_v1",
+          "version": "",
+          "internalVersion": "1",
+          "internalId": "59533a0247fcb1107bfd7d18c26d4341"
+        },
+        "productOrderItemRelationship": [
+          {
+            "id": "c504764247fcb1107bfd7d18c26d432c",
+            "relationshipType": "HasParent"
+          }
+        ],
+        "state": "new",
+        "version": "1",
+        "@type": "ProductOrderItem"
+      },
+      {
+        "id": "8d04b64247fcb1107bfd7d18c26d4363",
+        "ponr": "false",
+        "quantity": 1,
+        "priority": 4,
+        "action": "add",
+        "itemPrice": [
+          {
+            "priceType": "recurring",
+            "price": {
+              "taxIncludedAmount": {
+                "unit": "USD",
+                "value": 0
+              }
+            }
+          },
+          {
+            "priceType": "nonRecurring",
+            "price": {
+              "taxIncludedAmount": {
+                "unit": "USD",
+                "value": 0
+              }
+            }
+          }
+        ],
+        "product": {
+          "@type": "Product",
+          "productCharacteristic": [
+            {
+              "name": "Cloud Service",
+              "valueType": "choice",
+              "value": "AWS",
+              "previousValue": ""
+            }
+          ],
+          "productSpecification": {
+            "id": "8dca8c9c4774b1107bfd7d18c26d431e",
+            "name": "Versa_FlexVNF",
+            "version": "",
+            "internalVersion": "1",
+            "internalId": "8dca8c9c4774b1107bfd7d18c26d431e",
+            "@type": "ProductSpecificationRef"
+          },
+          "place": {
+            "id": "5671dd2ec3a53010188473ce3640dd81",
+            "@type": "Place"
+          }
+        },
+        "productOffering": {
+          "id": "59533a0247fcb1107bfd7d18c26d4341",
+          "name": "Versa_SDWAN_Offering_v1",
+          "version": "",
+          "internalVersion": "1",
+          "internalId": "59533a0247fcb1107bfd7d18c26d4341"
+        },
+        "productOrderItemRelationship": [
+          {
+            "id": "c504764247fcb1107bfd7d18c26d432c",
+            "relationshipType": "HasParent"
+          }
+        ],
+        "state": "new",
+        "version": "1",
+        "@type": "ProductOrderItem"
+      }
+    ],
+    "relatedParty": [
+      {
+        "id": "ffc68911c35420105252716b7d40dd55",
+        "name": "Funco Intl",
+        "@type": "RelatedParty",
+        "@referredType": "Customer"
+      },
+      {
+        "id": "51670151c35420105252716b7d40ddfe",
+        "name": "Sarah Johnson",
+        "@type": "RelatedParty",
+        "@referredType": "CustomerContact"
+      }
+    ],
+    "state": "new",
+    "version": "1",
+    "@type": "ProductOrder"
+  }
